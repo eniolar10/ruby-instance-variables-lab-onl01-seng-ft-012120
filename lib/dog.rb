@@ -5,13 +5,12 @@ class Dog
     
   end
   
- def name
+ def name(dog)
  @this_dogs_name 
 end
 
-end
 
 lassie = Dog.new
 lassie.name = "Lassie"
-
+end
 puts lassie.name
